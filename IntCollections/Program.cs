@@ -25,7 +25,7 @@ namespace IntCollections
 
 
             Console.Write("List:");
-            conta = 0;
+            conta = 1;
             foreach(int item in list)
             {
                 Console.Write($" {item}");
@@ -38,7 +38,7 @@ namespace IntCollections
             Console.WriteLine("");
 
             Console.Write("Stack:");
-            conta = 0;
+            conta = 1;
             foreach(int item in stack)
             {
                 Console.Write($" {item}");
@@ -51,7 +51,7 @@ namespace IntCollections
             Console.WriteLine("");
 
             Console.Write("Queue:");
-            conta = 0;
+            conta = 1;
             foreach(int item in queue)
             {
                 Console.Write($" {item}");
@@ -64,7 +64,7 @@ namespace IntCollections
             Console.WriteLine("");
 
             Console.Write("HashSet:");
-            conta = 0;
+            conta = 1;
             foreach(int item in hashset)
             {
                 Console.Write($" {item}");
