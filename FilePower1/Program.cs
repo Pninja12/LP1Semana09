@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace FilePower1
 {
@@ -6,9 +7,15 @@ namespace FilePower1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Write empty");
-            string empty = Console.ReadLine();
-            if (empty == "") Console.WriteLine("Yeppi");
+            string empty = " ";
+            Queue lista = new Queue();
+
+            while(empty != "")
+            {
+                empty = Console.ReadLine();
+                if (empty != "")
+                lista.Enqueue(empty);
+            }
         }
     }
 }
